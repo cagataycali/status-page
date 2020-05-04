@@ -13,7 +13,9 @@
     "start-dev": "nodemon --exec npm run start-dev:babel-node --watch src",
     "start-dev-debug-brk": "nodemon --exec npm run start-dev:babel-node:debug-brk --watch src",
     "start-dev-debug": "nodemon --exec npm run start-dev:babel-node:debug --watch src",
-    "start": "babel-node src/index.js"
+    "start": "babel-node src/index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-cli": "6.8.0",
@@ -48,6 +50,8 @@
     "scrape-it": "^2.2.0",
     "strftime": "^0.9.2",
     "string": "^3.3.1",
-    "url": "^0.11.0"
-  }
+    "url": "^0.11.0",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }

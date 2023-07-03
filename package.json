@@ -42,7 +42,7 @@
     "github": "^0.2.4",
     "github-api": "^0.11.2",
     "http": "0.0.0",
-    "jsdom": "^8.5.0",
+    "jsdom": "^16.5.0",
     "merge": "^1.2.0",
     "querystring": "^0.2.0",
     "scrape-it": "^2.2.0",
